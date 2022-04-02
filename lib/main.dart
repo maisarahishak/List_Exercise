@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -11,11 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text(appTitle),
-        ),
-        body: const MyCustomForm(),
-      ),
+          appBar: AppBar(
+            title: const Text(appTitle),
+          ),
+          body: const MyCustomForm()),
     );
   }
 }
@@ -27,8 +28,8 @@ class MyCustomForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        const Padding(
+      children: const <Widget>[
+        Padding(
           padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
           child: TextField(
             decoration: InputDecoration(
@@ -37,8 +38,10 @@ class MyCustomForm extends StatelessWidget {
             ),
           ),
         ),
-
-        //add button
+        Padding(
+          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+          child: RaisedButton(child: Text('Submit'), onPressed: null),
+        ),
       ],
     );
   }
