@@ -1,16 +1,12 @@
-# sampleproject
+# Using List in Flutter
 
-A new Flutter project.
+Kulliyyah of Information and Communication Technology
+CSCI 4311 Mobile Application Development
+Section 1
+Maisarah Binti Ishak (2013112)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this assignment, the purpose of the project is to create:
+1) A flutter app
+2) Object with hard coded list of items, for example apple, orange, rambutan...
+3) Textbox widget to enter a choice of 1,2,3,or ...
+4) Button to access the list and display the content of the list depending on what was chosen on the textbox
